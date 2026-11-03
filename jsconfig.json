@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 {
   "compilerOptions": {
     "paths": { "@/*": ["./*"] }
   }
 }
-=======
