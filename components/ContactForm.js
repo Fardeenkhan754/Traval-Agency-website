@@ -39,7 +39,11 @@ export default function ContactForm() {
           <p className="mt-8 text-sm text-ink/70">
             hello@airvanta.example
             <br />
+<<<<<<< HEAD
             (+92) 123 456 7890
+=======
+            (+92) 123 1234431
+>>>>>>> 145cf28c2be53c4439e31f53827512af2cb67412
           </p>
         </div>
         <div data-reveal>

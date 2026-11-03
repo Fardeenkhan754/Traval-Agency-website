@@ -9,9 +9,13 @@ export default function Destinations() {
         <div className="mt-12 grid auto-rows-[220px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {destinations.map((d, i) => (
             <a key={d.city} href="#search" data-reveal data-hover className={`group relative flex flex-col justify-end overflow-hidden rounded-2xl p-6 text-white ${i === 0 ? 'lg:col-span-2 lg:row-span-2' : ''} ${i === 3 ? 'lg:col-span-2' : ''}`}>
+<<<<<<< HEAD
               <div data-zoom className={`absolute inset-0 bg-gradient-to-br ${d.bg}`}>
                 {d.image && <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${d.image})` }} />}
               </div>
+=======
+              <div data-zoom className={`absolute inset-0 bg-gradient-to-br ${d.bg}`} />
+>>>>>>> 145cf28c2be53c4439e31f53827512af2cb67412
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               <div className="relative">
                 <p className="text-sm text-white/80">{d.country}</p>
